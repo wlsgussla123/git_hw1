@@ -59,10 +59,10 @@ a:hover, a:active {color:#C23700;}
 
 /* -- content -- */
 #content {background:#fff; overflow: auto; padding:0;}
-#main_content { width:700px; float:left; padding:10px; background:#fff;}
+#main_content { width:700px; float:left; padding:10px; background:#fff;text-align: center;}
 #sub_content { width:240px; float:right;padding:0;background-color:#ddd;height:100%;}
 #sub_content ul {margin:0;padding:0;}
-#sub_content ul li {float:center;}
+#sub_content ul li {}
 #sub_content ul li a{
 	color:#fff; background-color:#C1CDCD;
 	display:block;
@@ -71,17 +71,6 @@ a:hover, a:active {color:#C23700;}
 	font: bold 12px/30px Tahoma;
 	text-decoration:none;
 	margin-right:1px;
-}
-#sub_content ul li b{
-	color:#fff; background-color:#C1CDCD;
-	display:block;
-	text-align:center;
-	padding:0px 10px; 
-	font: bold 12px/30px Tahoma;
-	text-decoration:none;
-	margin-right:1px;
-	list-style-type:square;
-
 }
 /* -- footer -- */
 #footer {background-color:#d5dde2; color:#888; text-align:center; padding: 20px;}
