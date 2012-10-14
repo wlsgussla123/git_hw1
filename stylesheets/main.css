@@ -1,0 +1,106 @@
+/* Reset CSS: from YUI2: Reset CSS */
+html{color:#000;
+	background:#888; 
+	padding:20px 0;
+	font: 12px/18px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdana, Arial, Tahoma;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{font-size:100%;}
+
+/* Basic */
+h1 {font-size:14px; line-height:28px; font-weight:bold; text-decoration:underline;}
+h2 {font-size:12px; line-height:24px; font-weight:bold;}
+a:visited, a:link {color:#c20A00;text-decoration:none;}
+a:hover, a:active {color:#C23700;}
+
+/* layout */
+#wrap {width:960px; margin:0 auto; background-color:#888}
+
+/*  -- top -- */
+#top { 
+	width:950px; color:#eee; 
+	padding:0 10px 15px 0;
+	text-align:right; font-weight:bold;
+}
+#top a {color:#eee;text-decoration:none;padding:5px;}
+#top a:hover {background-color: yellow;}
+
+/*  -- header -- */
+#header {
+	width:100%; height:135px; background-color:#8B8378;
+	border-bottom: 1px solid #999;
+	
+	/* 외곽선 둥글게 만들기, IE지원 안함 */
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-radius: 15px 15px 0 0;
+}
+
+#header_left{
+	width: 500px; float:left;display:inline; color:#FFF;
+	padding:10px; height:80px; font-size: 25px; text-align: center;
+}
+#header_right{width:400px;float:right;text-align:right;display:inline; padding:40px 30px 0 0;}
+#line {width:960px; height:5px;background-color:#94c713;}
+
+
+/* -- content -- */
+#content {background:#fff; overflow: auto; padding:0;}
+#main_content { width:700px; float:left; padding:10px; background:#fff;}
+#sub_content { width:240px; float:right;padding:0;background-color:#ddd;height:100%;}
+#sub_content ul {margin:0;padding:0;}
+#sub_content ul li {float:center;}
+#sub_content ul li a{
+	color:#fff; background-color:#C1CDCD;
+	display:block;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+	margin-right:1px;
+}
+#sub_content ul li b{
+	color:#fff; background-color:#C1CDCD;
+	display:block;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+	margin-right:1px;
+	list-style-type:square;
+
+}
+/* -- footer -- */
+#footer {background-color:#d5dde2; color:#888; text-align:center; padding: 20px;}
+
+
+/* -- navigation -- */
+#navbar {width:960px; height:30px;background-color:#CDB79E}
+#navbar ul {margin:0;padding:0;}
+#navbar ul li {float:left;}
+#navbar ul li a{
+	color:#fff; background-color:#8B7D6B;
+	display:block;
+	width:120px;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+	margin-right:1px;
+}
+#navbar ul li a.selected {background-color:#94c713;}
+#navbar ul li a:hover {background-color:#709647;}
+
